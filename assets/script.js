@@ -106,3 +106,16 @@ function Accion(tipo){
         elem.style.display = "";
     }
 }
+
+// Tipos de datos
+/* "Objetos" son como diccionarios. Pueden contener diferentes tipos de datos */
+var auto = {
+            marca:"Ford", 
+            cilindros:8,
+            transmisión:"automático",
+            tapiz:{
+                color:"beige",
+                textura:"fibrosa",
+                material:"sintético"
+            }
+            } //no tienen un orden
